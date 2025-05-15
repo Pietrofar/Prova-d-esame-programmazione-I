@@ -23,7 +23,7 @@ public class ProdottoAlimentare {
         return this.nomeProdotto;
     }
 
-    public String set_NomeProdotto(String n){
+    public String set_NomeProdotto(String n){   
         return this.nomeProdotto = n;
     }
 
@@ -31,7 +31,7 @@ public class ProdottoAlimentare {
         return this.scadenza;
     }
 
-    public Data set_scadenza(Data s){
+    public Data set_scadenza(Data s){  //SBAGLIATO MA NON UTILE ALL'IMPLEMENTAZIONE.
         return this.scadenza = s;
     } 
 
